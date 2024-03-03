@@ -21,7 +21,7 @@ Build `main.go` file with `go build main.go` command to get executable program.
 Use the -add flag followed by the task description to add a new task.
 
 ```bash
-    ./main -add "To learn Go programming"
+./main -add "To learn Go programming"
 ```
 
 ### List All Tasks
@@ -29,7 +29,7 @@ Use the -add flag followed by the task description to add a new task.
 To list all tasks, use the -list flag.
 
 ```bash
-    ./main -list
+./main -list
 ```
 
 ### Mark a Task as Complete
@@ -37,7 +37,7 @@ To list all tasks, use the -list flag.
 Specify the task ID using the -complete flag to mark it as complete.
 
 ```bash
- ./main -complete 1
+./main -complete 1
 ```
 
 ### Remove a Task
@@ -45,5 +45,5 @@ Specify the task ID using the -complete flag to mark it as complete.
 Use the -remove flag followed by the task ID to remove it from the list.
 
 ```bash
- ./main -remove 1
+./main -remove 1
 ```
