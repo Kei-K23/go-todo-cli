@@ -7,7 +7,7 @@ This is a simple CLI application to manage tasks a.k.a simple Todo CLI applicati
 To build the application from source, clone the repository and build the binary using Go:
 
 ```bash
-git clone https://github.com/your-repo/taskmanager.git
+gh repo clone Kei-K23/go-todo-cli
 cd go-todo-cli
 go build main.go
 ```
